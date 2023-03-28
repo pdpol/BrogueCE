@@ -126,8 +126,8 @@ jobs:
     - name: "Upload artifact"
       uses: actions/upload-artifact@v2
       with:
-        name: macos-x86_64
-        path: BrogueCE-macos-x86_64-mac11.zip
+        name: macos-x86_64-mac11
+        path: BrogueCE-macos-x86_64.zip
 
   windows:
     runs-on: windows-latest
